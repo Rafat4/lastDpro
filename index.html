@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Prep Final Project</title>
+</head>
+<body class="body">
+	<div class="headDiv">
+		<h1 class="header">T.G.M</h1>
+		<div class="tab">
+		  <button class="tablinks" id = "Home">Home</button>
+		  <button class="tablinks" id = "countries" onclick="openCity(event, 'Paris')">
+		  	<select size="1" name="links" onchange="window.location.href=this.value;" class="select">
+				<option value="volvo">Countries list </option>
+				<option  value=	"https://www.touropia.com/best-places-to-visit-in-australia/">	Australia</option>
+				<option value="https://travelaway.me/best-cities-brazil/">Brazil        </option>
+				<option value="http://money.com/money/5317610/best-places-travel-canada/">Canada        </option>
+				<option value="https://www.chinahighlights.com/travelguide/article-top-china-tourist-destination.htm">China          </option>
+				<option value="	https://www.touropia.com/best-places-to-visit-in-denmark/">	Denmark    </optio>
+				<option value="https://www.planetware.com/tourist-attractions/egypt-egy.htm">Egypt          </option>
+				<option value="https://theculturetrip.com/europe/france/articles/14-cities-and-towns-in-france-to-visit-in-2016/	">France	</option>
+				<option value="https://www.forbes.com/sites/anthonygrant/2018/04/07/10-places-you-need-to-visit-in-greece-this-summer/#3c15cb026d93">Greece	     </option>
+				<option value="https://www.neverstoptraveling.com/the-top-10-places-in-japan	">Japan	       </optio>
+				<option value="https://www.thecrazytourist.com/15-best-places-visit-jordan/">Jordan	       </optio>
+				<option value="https://www.thecrazytourist.com/15-best-places-visit-maldives/">Maldives    </option>
+				<option value="Mexico		">Mexico		</option>
+				<option value="Philippines		">Philippines		</option>
+				<option value="https://travelaway.me/best-places-visit-russia/">Russia</option>
+				<option value="https://www.talktotim.co.uk/blog/travel/2015/03/04/10-top-spanish-city-break-holidays/">Spain<option>
+				<option value="https://www.cleartrip.com/collections/best-10-places-visit-turkey/		">Turkey</option>
+				<option value="https://www.wefindyougo.com/best-tourist-places-in-yemen/">Yemen </option>
+			</select></button>
+		  <div></div>
+		  <div></div>
+		  <div></div>
+		  <a href="http://mentalfloss.com/article/558406/worlds-10-most-visited-cities-and-what-it-costs-spend-day-there"><button class="tablinks" onclick="openCity(event, 'Tokyo')">Mostly Visited</button></a>
+		 <a href="https://www.booking.com/index.html?aid=309654;label=booking-be-en-emea-ZjODeJBxkkWXLNR_*2WWdQS285459374390:pl:ta:p1:p22,277,000:ac:ap1t1:neg:fi:tikwd-98299850:lp9069818:li:dec:dm;ws=&gclid=EAIaIQobChMI_J7UyKij4QIVwo2yCh0CCwzJEAAYASAAEgJNafD_BwE" ><button class="tablinks" onclick="openCity(event, 'Tokyo')">Booking Websites</button></a>
+		  <input type="text" class="search" placeholder="Search by month"><button type="submit" class="button" >search</button>
+		</div>	
+	</div>
+	<!-- <div class="background-images">
+			<p class="qoutes">It is good to have an end journey toward; but it is the joutney that matters, in the end.</p>
+		</div> -->
+		<div id="searchResult">
+		<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 10</div>
+  <img src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rjKzjyvqZj7jax47k/videoblocks-budapest-hungary-aerial-4k-drone-footage-of-the-skyline-view-of-budapest-with-matthias-church_rbmklg2w_f_thumbnail-full05.png" style="width:100%">
+  <div class="text">It is good to have an end journey toward; but it is the joutney that matters, in the end.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 10</div>
+  <img src="https://i.pinimg.com/originals/df/96/89/df9689e55e9ebbf4df5349870ca6fcf6.jpg" style="width:100%">
+  <div class="text">Jobs Fill Your Pocket But Adventures Fill Your Soul</div>
+</div>
+
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 10</div>
+  <img src="https://thewallpaper.co/wp-content/uploads/2015/12/Arc-De-Triomphe-photo-effect-paris-france.jpg" style="width:100%">
+  <div class="text">Once A Year, Go SomePlace You've Never Been Before</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 10</div>
+  <img src="https://images8.alphacoders.com/437/437746.jpg" style="width:100%">
+  <div class="text">“Life is short and the world is wide.”</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 10</div>
+  <img src="https://1dib1q3k1s3e11a5av3bhlnb-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/paulista-avenue-sao-paulo.jpg" style="width:100%">
+  <div class="text">“A good traveler has no fixed plans, and is not intent on arriving.”</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">6 / 10</div>
+  <img src="https://1dib1q3k1s3e11a5av3bhlnb-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/brazilian-national-congress-brasilia.jpg" style="width:100%">
+  <div class="text">“Travel doesn’t become adventure until you leave yourself behind” </div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">7 / 10</div>
+  <img src="https://1dib1q3k1s3e11a5av3bhlnb-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/curitiba-brazil.jpg" style="width:100%">
+  <div class="text">“Adventure is a path. Real adventure, self-determined, self-motivated, often risky, forces you to have firsthand encounters with the world”</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">8 / 10</div>
+  <img src="https://1dib1q3k1s3e11a5av3bhlnb-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/rio-sugarloaf.jpg" style="width:100%">
+  <div class="text">“To travel is to discover that everyone is wrong about other countries”</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">9 / 10</div>
+  <img src="https://cdn.thecrazytourist.com/wp-content/uploads/2017/04/Banana-Reef.jpg" style="width:100%">
+  <div class="text"> “People don’t take trips, trips take people.”</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">10 /10</div>
+  <img src="https://cdn.thecrazytourist.com/wp-content/uploads/2017/04/Kunfunadhoo-Island.jpg" style="width:100%">
+  <div class="text">“In the end, we only regret the chances we didn’t take.”</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>  
+</div>
+</div>
+
+		<div id="bottomDiv">
+			<h3 class="bottom-header">See also</h3>
+			<a href="https://www.visitacity.com/en/petra/activities/all-activities"><img  id ="first" class = "img" src="https://i1.wp.com/www.worldwanderista.com/wp-content/uploads/2018/04/Road-Trip-Jordan-Petra-1.jpg?resize=715%2C400&ssl=1" alt="Petra"></a>
+			<a href="https://www.tripadvisor.com/Attractions-g187147-Activities-c42-Paris_Ile_de_France.html"><img id ="second" class = "img" src="https://bit.ly/2Tz9h1N" alt="Paris"></a>
+			<a href="https://www.nomadicmatt.com/travel-guides/romania-travel-tips/"><img id ="third" class = "img" src="https://bit.ly/2Fya5PB" alt="Roma"></a>
+			<a href="https://www.gpsmycity.com/tours/sanaa-daily-life-tour-5387.html"><img id ="fourth" class = "img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTflfdmDcPXe6IeA2aR0qtkcvc4N98e31RnCF6B74OyMVqxOeDrhQ" alt="sanaa"></a>
+			<a href="https://www.holidify.com/places/moscow/sightseeing-and-things-to-do.html"><img id ="fifth" class = "img" src="https://www.arrajol.com/sites/default/files/styles/800x530/public/2016/04/06/3-red4.jpg?itok=9A5Wl319" alt="moscow"></a>
+			<a href="https://www.nomadicmatt.com/travel-guides/germany-travel-tips/berlin/"><img id ="sixth" class = "img" src="https://images.unsplash.com/photo-1509136561942-7d8663edaaa2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="berlin"></a>
+			<a href="https://www.nomadicmatt.com/travel-guides/spain-travel-tips/"><img id ="seventh" class = "img" src="https://t1.hespress.com/files/2018/01/andalus_313366257.jpg" alt="spain"></a>
+			<a href="https://www.nomadicmatt.com/travel-guides/the-maldives-travel-tips/"><img id ="eigth" class = "img" src="https://wallpapercave.com/wp/XpDxzYW.jpg" alt="maldives"></a>
+			<a href="https://www.chinahighlights.com/travelguide/special-report/china-top-tourist-cities/"><img id ="ninth" class = "img" src="https://wallpaperfx.com/uploads/wallpapers/2015/05/07/16568/preview_chinese-garden.jpg" alt="china"></a>
+		</div>
+
+
+	<script
+  	src="http://code.jquery.com/jquery-3.3.1.min.js"
+  	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  	crossorigin="anonymous"></script>
+<script type="text/javascript" src="main.js">
+</script>
+</body>
+</html>
